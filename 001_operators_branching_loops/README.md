@@ -9,7 +9,7 @@
     return num1+num2+num3+num4+num5
    }
    console.log(add(5,13,7,21,48))
-
+ ////output---> 94
 ```
 2. Write a program to take a number input from user and determine whether the number is odd or even.
 ```
@@ -21,7 +21,7 @@
      }
     }
  oddOrEven(5)
-
+  ////output----> given input is odd
 ```
 
 3. Write a program to find the maximum and minimum out of two given numbers. The numbers are num1=129 and num2=251.
