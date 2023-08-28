@@ -12,6 +12,17 @@
 
 ```
 2. Write a program to take a number input from user and determine whether the number is odd or even.
+```
+  function oddOrEven(num){
+    if(num%2===0){
+        console.log("given input is even")
+    }else{
+        console.log("given input is odd")
+     }
+    }
+ oddOrEven(5)
+
+```
 
 3. Write a program to find the maximum and minimum out of two given numbers. The numbers are num1=129 and num2=251.
 
