@@ -4,7 +4,13 @@
 ## Easy
 
 1. Write a program to add 5 numbers. The value of numbers are num1=5, num2=13, num3=7, num4=21 and num5=48.
+```
+  function add(num1,num2,num3,num4,num5){
+    return num1+num2+num3+num4+num5
+   }
+   console.log(add(5,13,7,21,48))
 
+```
 2. Write a program to take a number input from user and determine whether the number is odd or even.
 
 3. Write a program to find the maximum and minimum out of two given numbers. The numbers are num1=129 and num2=251.
