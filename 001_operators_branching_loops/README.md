@@ -55,6 +55,21 @@ maxOrmin(129,251);
  ```
 
 5. Write a program to find the minimum out of three given numbers. The numbers are num1=35, num2=29 and num3=46.
+```
+ function findSmallest(num1,num2,num3){
+    if(num1<num2&&num1<num3){
+        console.log(`${num1} is the smallest in the given numbers ${num1}, ${num2}, ${num3}`)
+    }else if(num2<num1&&num2<num3){
+         console.log(`${num2} is the smallest  in the given numbers ${num1}, ${num2}, ${num3}`)
+    }else{
+        console.log(`${num3} is the smallest  in the given numbers ${num1}, ${num2}, ${num3}`)
+    }
+
+   }
+   findSmallest(35,29,46)
+   ////output---->29 is the smallest  in the given numbers 35, 29, 46
+```
+ 
 
 6. Write program to take a month as an input from the user and find out whether the month has 31 days or not.
 
