@@ -25,6 +25,18 @@
 ```
 
 3. Write a program to find the maximum and minimum out of two given numbers. The numbers are num1=129 and num2=251.
+```
+function maxOrmin(num1,num2){
+  if(num1>num2){
+    console.log(`${num1} is greater than ${num2}`)
+  }else{
+     console.log(`${num2} is greater than ${num1}`)
+  }
+
+}
+maxOrmin(129,251);
+/// output--> 251 is greater than 129
+```
 
 4. Write a program to find the maximum out of three given numbers. The numbers are num1=8, num2=23 and num3=17.
 
