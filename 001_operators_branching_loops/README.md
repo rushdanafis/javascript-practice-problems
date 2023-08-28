@@ -42,16 +42,16 @@ maxOrmin(129,251);
  ```
    function findGreatest(num1,num2,num3){
     if(num1>num2&&num1>num3){
-        console.log(`${num1} is the maximum among given numbers ${num1}, ${num2}, ${num3}`)
+        console.log(`${num1} is the maximum in the given numbers ${num1}, ${num2}, ${num3}`)
     }else if(num2>num1&&num2>num3){
-         console.log(`${num2} is the maximum among given numbers ${num1}, ${num2}, ${num3}`)
+         console.log(`${num2} is the maximum in the given numbers ${num1}, ${num2}, ${num3}`)
     }else{
-        console.log(`${num3} is the maximum among given numbers ${num1}, ${num2}, ${num3}`)
+        console.log(`${num3} is the maximum in the given numbers ${num1}, ${num2}, ${num3}`)
     }
 
    }
    findGreatest(8,23,17)
- ////output----> 23 is the maximum amoong given numbers 8, 23, 17
+ ////output----> 23 is the maximum in the given numbers 8, 23, 17
  ```
 
 5. Write a program to find the minimum out of three given numbers. The numbers are num1=35, num2=29 and num3=46.
