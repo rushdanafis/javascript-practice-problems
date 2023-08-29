@@ -72,6 +72,32 @@ maxOrmin(129,251);
  
 
 6. Write program to take a month as an input from the user and find out whether the month has 31 days or not.
+  ```
+  function monthCheck(month){
+    let months31 =["january", "march", "may", "july", "august", "october", "december"];
+    if(months31.includes(month)){
+      console.log(`${month} has 31 days.`)
+    }else{
+       console.log(`${month} does not have 31 days.`)
+    }
+
+  }
+ monthCheck("january"); //// output---->january has 31 days.
+ monthCheck("february") //// output---->february does not have 31 days.
+ monthCheck("march"); //// output---->march has 31 days.
+ monthCheck("april"); //// output---->april does not have 31 days.
+ monthCheck("may"); //// output---->may has 31 days.
+ monthCheck("june"); //// output----> june does not have 31 days.
+ monthCheck("july"); //// output---->july has 31 days.
+ monthCheck("august"); //// output---->august has 31 days.
+ monthCheck("september") //// output---->september does not have 31 days.
+ monthCheck("october") //// output---->october has 31 days.
+ monthCheck("november") //// output---->november does not have 31 days.
+ monthCheck("december") //// output---->december has 31 days.
+   
+  ```
+
+
 
 ## Intermediate
 
