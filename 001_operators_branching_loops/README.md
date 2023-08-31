@@ -174,12 +174,61 @@ console.log(printer())
     ```
 
 9. Write a program to take a number input from user and print multiplication table 12 times for that number.
+ ```
+ function multiplicationTablegenerator(number){  
+  for(let i=1;i<=12;i++){
+    let table= number*i    
+     console.log(number + " * "+ i +" "+ "= "+ table)    
+  }  
+}
+ multiplicationTablegenerator(5)
+
+ //// output---->5 * 1 = 5
+                 5 * 2 = 10
+                 5 * 3 = 15
+                 5 * 4 = 20
+                 5 * 5 = 25
+                 5 * 6 = 30
+                 5 * 7 = 35
+                 5 * 8 = 40
+                 5 * 9 = 45
+                 5 * 10 = 50
+                 5 * 11 = 55
+                 5 * 12 = 60
+ 
+ ```
+ 
+
+
 
 10. Write a program to return a Fibonacci series : 0,1,1,2,3,5,8,13,21....
 
 11. Write a program to take an input from a user and find its Factorial.
    `Example: Factorial of 5 is 120`
+ ```
+ function factoralGenerator(num){  
+ if(num<0){
+   console.log("Error: Factorial is not defined for negative numbers")
+  }else if(num===0|| num===1){
+   return 1   
+  }else{
+    let factoral=1;
+   
+   for(let i=2;i<=num;i++){
+    factoral*=i   
+  }
+  return  factoral
+}   
+}
+console.log(factoralGenerator(5))
+///output---> 120
+
+
+```
+
+
 12. Write a Program to take a number input from user and find if the number is Prime or not.
+
 
 13. Write a program to take a day as an input and determine whether it is a weekday or weekend.
    `Example: Tuesday is weekday.`
