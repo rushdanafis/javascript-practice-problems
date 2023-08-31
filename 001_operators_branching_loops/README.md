@@ -151,7 +151,27 @@ console.log(printer())
     \* \* \
     \* \* \* \
     \* \* \* \* \
-    \* \* \* \* \*
+    \* \* \* \* \* 
+
+    ```
+    function printStar(){
+     let pattern=""
+
+         for(let i=0;i<=4;i++){
+    pattern+="* "
+    console.log(pattern)
+     }
+   }
+
+   printStar()
+
+   ///output---> * 
+                  * * 
+                  * * * 
+                  * * * * 
+                  * * * * * 
+    
+    ```
 
 9. Write a program to take a number input from user and print multiplication table 12 times for that number.
 
